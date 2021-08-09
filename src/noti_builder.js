@@ -11,26 +11,27 @@ if(!positon)
 switch(positon)
 {
     case "top-left":
-        positon="top-left";
         x=0;
         y=0;
     break;
     
     case "top-right":
-        positon="top-left";
         y=0;
-        x=
+        x=100-sizeX;
     break;
     
     case "bottom-left":
-        positon="top-left";
+        x=0;
+        y=100-sizeY;
     break;
     
     case "bottom-right":
-        positon="top-left";
+        x=100-sizeX;
+        y=100-sizeY;
     break;
 
-    case "bottom-right":
-        positon="top-left";
+    case "center":
+        x=50-sizeX;
+        y=50-sizeY;
     break;
 }
