@@ -1,14 +1,23 @@
 
-let positon;
+let pos;
 let sizeX,sizeY;
 let x,y;
+let Title;
+let SubTitle;
 
+function NotificatonBuilder(Title_str, subTitle_str, xSize, ySize, position)
+{
+    const notification = {xSize = sizeX, ySize = sizeY, position=pos}
+}
 if(!positon)
 {
     console.log("Noti.js says: Notification position unspecified")
 }
+else{
+    
+}
 
-switch(positon)
+switch(pos)
 {
     case "top-left":
         x=0;
